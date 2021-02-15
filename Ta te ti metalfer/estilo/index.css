@@ -1,0 +1,201 @@
+@media screen and (max-width:640px) {
+/*comentar en css*/
+html{
+	/*definir el tamaño del html total*/
+	width: 100%;
+	height: 100%;
+	/*color de fuente*/
+	color: black;
+	/*reconocimiento de letra*/
+	font-family: arial, sans serif;
+	/*tamaño de letra*/
+	font-size: 20px;
+	/*background-image: url(../backround/background-logo.jpg);*/
+	top: 100%;
+	line-height:1.5;
+	background-color:rgb(83,0,0);
+}
+
+body{
+	/*margen de borde del cuerpo*/
+	margin:0px;
+	width:100%;
+	height:100%;
+}
+
+header{
+	/*tamaño que va a ocupar el header o banner con el logo*/
+	width: 100%;
+	height: 15%;
+	background-color:rgb(83,0,0);
+}
+
+
+#backgroung-logo{
+	background-color:rgb(103,0,0);
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 100%;
+	height: 100%;
+}
+
+
+#frases{
+	/*tamaño del logo ancho y largo*/
+	width: 65%;
+	height: 20%;
+	/*centrar manualmente de izquierda lo muevo hacia la derecha*/
+	left: 17.5%;
+	/*centrar manualmente de arriba hacia abajo*/
+	top: -2.5%;
+	position: absolute;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+
+
+section{
+	position:relative;
+	width: 100%;
+	height: 75%;
+	background-color:rgb(0,0,0);
+}
+	
+.backgroung{
+	/*ocupa el tamaño total del seccion*/
+	display:table;
+	width:100%;
+	height:100%;
+}
+.background1{
+	position:absolute;
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(83,0,0);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:3%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+}
+
+.backgroung2{
+	/*tamaño del boton ancho y largo*/
+	width:94%;
+	height:94%;
+	/*fondo del boton*/
+	background-color:rgb(999,999,999);
+	/*boton centrado en los laterales*/
+	margin-left:3%;
+	/*separacion entre botones*/
+	margin-top:2.5%;
+	/*redondeado en borde del boton*/
+	border-radius:10px;
+	cursor:none;
+	/*cuando el cursor se posiciona en el boton se cambia a una manito*/
+	
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	position:absolute;	
+	
+}
+div.scroll {
+	width: 98%;
+	height: 97%;
+	overflow-y: scroll;
+	position: absolute;
+	top: 2%;
+	margin: 0%;
+	padding: 0%;
+}
+
+
+footer{
+	width: 100%;
+	height: 9.9%;
+	background-color:rgb(83,0,0);
+}
+#alexis{
+	position:relative;
+	/*background que va a ocupar tambien se puede definir "background-image:url(../backround/backround.jpg;"*/
+	width: 50%;
+	height: 90%;
+	margin-left:25%;
+	margin-top:0.7%;
+	
+}
+
+
+#content {
+            color: blue;
+            font-size: 20px;
+            background-color: white;
+            text-align: center;
+        }
+
+        h1 {
+            color: #5795ee;
+            font-size: 40px;
+            background-color: white;
+        }
+
+        .bt {
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            align-content: center;
+        }
+
+        .img {
+            height: 70px;
+            width: 70px;
+            text-align: center;
+            align-content: center;
+            border-width: medium;
+            border-color: black;
+            background-color: transparent;
+        }
+
+.first{
+	text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0,0,0,1);
+    background-color:#ffffff ;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+	
+	}
+	
+	
+.first:hover{
+    color: rgba(255,255,255,1) ;
+    background-color: #1883ba;
+  }
+  
+#x{
+	background-image: url(../logo/vs%201%20200.png);
+
+	height:126px;
+	width:200px;
+
+	
+
+	} 
+	
+#o{
+	background-image: url(../logo/vs%202.png);
+
+	height:126px;
+	width:200px;
+	}  	 
+}
